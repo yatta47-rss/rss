@@ -1,0 +1,11 @@
+media,url
+quiita,https://qiita.com/tags/grafana/feed.atom
+hatena,https://b.hatena.ne.jp/search/text?q=grafana&users=1&mode=rss
+googleNews,https://news.google.com/atom/search?ie=UTF-8&oe=UTF-8&q=grafana&hl=ja&gl=JP&ceid=JP:ja
+SlideShare,http://www.slideshare.net/rss/tag/grafana
+Medium,https://medium.com/feed/tag/grafana
+reddit,https://www.reddit.com/r/grafana/
+twitter,https://queryfeed.net/tw?q=grafana
+note,https://note.com/hashtag/grafana/rss
+zenn,https://zenn.dev/topic/grafana/feed
+dev.to,https://dev.to/feed/tag/grafana
