@@ -5,6 +5,8 @@ from genrss import GenRSS
 import re
 import os
 import glob
+import datetime
+import dateutil.parser
 
 def regrex(str):
     reg = re.compile(r"<[^>]*?>")
@@ -53,10 +55,6 @@ class FeedController:
         
         print("get_feed end")
 
-    def view_entries(self):
-        for entry in self.entries:
-            print(entry)
-
     def _get_entries(self, feed):
         '''エントリーを取得する
         
@@ -75,7 +73,6 @@ class FeedController:
             item['title'] = title
             
             item['link'] = post.link
-            item['updated'] = post.updated
 
             # サマリー取得
             # なかった場合はブランクを指定
@@ -91,19 +88,32 @@ class FeedController:
 
             # 投稿日時取得
             if post.get('published') != None:
-                item['published'] = post.published
+                # print("***" * 30)
+                # print(dateutil.parser.parse(post.published))
+                # print("***" * 30)
+                # item['published'] = post.published
+                item['published'] = dateutil.parser.parse(post.published).isoformat()
             else:
-                item['published'] = datetime.utcnow()
+                now = datetime.datetime.now(datetime.timezone.utc)
+                item['published'] = now.isoformat()
 
             # 更新日時取得
             if post.get('updated') != None:
-                item['updated'] = post.updated
+                # item['updated'] = post.updated
+                item['updated'] = dateutil.parser.parse(post.updated).isoformat()
             else:
                 item['updated'] = item['published']
 
+            # print("====== start")
+            # print(item['title'])
+            # print(post)
+            # print("====== end")
             entries.append(item)
         
         return entries
+
+    def sort_entries(self):
+        self.entries.sort(key=lambda item:item['updated'], reverse=True)
 
     def generate_xml(self):
         '''フィード作成
@@ -137,6 +147,10 @@ class FeedController:
         for feed in self.feed_list:
             print(feed)
 
+    def view_entries(self):
+        for entry in self.entries:
+            print("date:{} {}".format(entry['published'], entry['title']))
+
     def get_category_name(self, file_path):
         self.name = os.path.splitext(os.path.basename(file_path))[0]
 
@@ -153,11 +167,11 @@ if __name__ == "__main__":
 
     files = glob.glob("csv/*.csv")
     for file in files:
-        # print(file)
         print(os.path.splitext(os.path.basename(file))[0])
         category = os.path.splitext(os.path.basename(file))[0]
 
         f = FeedController(category)
         f.read_csv()
         f.get_feed()
+        f.sort_entries()
         f.generate_xml()
