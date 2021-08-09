@@ -86,18 +86,26 @@ class FeedController:
             else:
                 item['summary'] = ""
 
-            # 投稿日時取得
-            if post.get('published') != None:
-                item['published'] = dateutil.parser.parse(post.published).isoformat()
-            else:
-                now = datetime.datetime.now(datetime.timezone.utc)
-                item['published'] = now.isoformat()
+            # # 投稿日時取得
+            # if post.get('published') != None:
+            #     item['published'] = dateutil.parser.parse(post.published).isoformat()
+            # else:
+            #     now = datetime.datetime.now(datetime.timezone.utc)
+            #     item['published'] = now.isoformat()
 
-            # 更新日時取得
-            if post.get('updated') != None:
-                item['updated'] = dateutil.parser.parse(post.updated).isoformat()
+            # # 更新日時取得
+            # if post.get('updated') != None:
+            #     item['updated'] = dateutil.parser.parse(post.updated).isoformat()
+            # else:
+            #     item['updated'] = item['published']
+            if post.get('updated') == None:
+                if post.get('published') != None:
+                    item['published'] = item['updated'] = dateutil.parser.parse(post.published).isoformat()
+                else:
+                    now = datetime.datetime.now(datetime.timezone.utc)
+                    item['published'] = item['updated'] = now.isoformat()
             else:
-                item['updated'] = item['published']
+                item['published'] = item['updated'] = dateutil.parser.parse(post.updated).isoformat()
 
             entries.append(item)
         
