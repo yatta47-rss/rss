@@ -1,6 +1,12 @@
+## 使いかた
+
+csvディレクトリに読み取ってももらいたいカテゴリ名でファイルを作成する。
+
+Github Actionsで定期実行を行う。
+
 ## Github Pages URL
 
-https://yatta47-rss.github.io/rss/
+https://yatta47-rss.github.io/rss/XXXX.xml
 
 ## 参考サイト
 
