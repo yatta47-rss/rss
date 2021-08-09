@@ -88,10 +88,6 @@ class FeedController:
 
             # 投稿日時取得
             if post.get('published') != None:
-                # print("***" * 30)
-                # print(dateutil.parser.parse(post.published))
-                # print("***" * 30)
-                # item['published'] = post.published
                 item['published'] = dateutil.parser.parse(post.published).isoformat()
             else:
                 now = datetime.datetime.now(datetime.timezone.utc)
@@ -99,15 +95,10 @@ class FeedController:
 
             # 更新日時取得
             if post.get('updated') != None:
-                # item['updated'] = post.updated
                 item['updated'] = dateutil.parser.parse(post.updated).isoformat()
             else:
                 item['updated'] = item['published']
 
-            # print("====== start")
-            # print(item['title'])
-            # print(post)
-            # print("====== end")
             entries.append(item)
         
         return entries

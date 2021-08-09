@@ -1,6 +1,6 @@
 ## Github Pages URL
 
-https://yatta47.github.io/rss/
+https://yatta47-rss.github.io/rss/
 
 ## 参考サイト
 
