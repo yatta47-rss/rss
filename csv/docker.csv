@@ -1,0 +1,10 @@
+media,url
+quiita,https://qiita.com/tags/docker/feed.atom
+hatena,https://b.hatena.ne.jp/search/text?q=docker&users=1&mode=rss
+GoogleNews,https://news.google.com/atom/search?ie=UTF-8&oe=UTF-8&q=docker&hl=ja&gl=JP&ceid=JP:ja
+slideshare,http://www.slideshare.net/rss/tag/docker
+medium,https://medium.com/feed/tag/docker
+note,https://note.com/hashtag/docker/rss
+zenn,https://zenn.dev/topic/docker/feed
+dev.to,https://dev.to/feed/tag/docker
+GoogleAlert,https://www.google.co.jp/alerts/feeds/11666000284305127907/2576148698163635230
