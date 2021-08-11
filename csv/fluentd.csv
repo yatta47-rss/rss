@@ -1,0 +1,14 @@
+
+media,url
+qiita,https://qiita.com/tags/fluentd/feed.atom
+hatena,https://b.hatena.ne.jp/search/text?q=fluentd&users=1&mode=rss
+zenn,https://zenn.dev/topic/fluentd/feed
+medium,https://medium.com/feed/tag/fluentd
+GoogleNews,https://news.google.com/atom/search?ie=UTF-8&oe=UTF-8&q=fluentd&hl=ja&gl=JP&ceid=JP:ja
+dev.to,https://dev.to/feed/tag/fluentd
+stackOverflow,https://stackoverflow.com/feeds/tag?tagnames=fluentd&sort=newest
+slideshare,http://www.slideshare.net/rss/tag/fluentd
+note,https://note.com/hashtag/fluentd/rss
+reddit,https://www.reddit.com/r/fluentd/
+queryfeed,https://queryfeed.net/tw?q=fluentd
+GoogleAlert,https://www.google.co.jp/alerts/feeds/11666000284305127907/15452103459374138674
