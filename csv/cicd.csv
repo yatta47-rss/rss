@@ -1,0 +1,13 @@
+media,url
+qiita,https://qiita.com/tags/cicd/feed.atom
+hatena,https://b.hatena.ne.jp/search/text?q=cicd&users=1&mode=rss
+zenn,https://zenn.dev/topic/cicd/feed
+medium,https://medium.com/feed/tag/cicd
+GoogleNews,https://news.google.com/atom/search?ie=UTF-8&oe=UTF-8&q=cicd&hl=ja&gl=JP&ceid=JP:ja
+dev.to,https://dev.to/feed/tag/cicd
+stackOverflow,https://stackoverflow.com/feeds/tag?tagnames=cicd&sort=newest
+slideshare,http://www.slideshare.net/rss/tag/cicd
+note,https://note.com/hashtag/cicd/rss
+reddit,https://www.reddit.com/r/cicd/
+queryfeed,https://queryfeed.net/tw?q=cicd
+GoogleAlert,https://www.google.co.jp/alerts/feeds/11666000284305127907/1873710197045696615
