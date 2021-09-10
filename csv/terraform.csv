@@ -1,0 +1,13 @@
+media,url
+qiita,https://qiita.com/tags/terraform/feed.atom
+hatena,https://b.hatena.ne.jp/search/text?q=terraform&users=1&mode=rss
+zenn,https://zenn.dev/topic/terraform/feed
+medium,https://medium.com/feed/tag/terraform
+GoogleNews,https://news.google.com/atom/search?ie=UTF-8&oe=UTF-8&q=terraform&hl=ja&gl=JP&ceid=JP:ja
+dev.to,https://dev.to/feed/tag/terraform
+stackOverflow,https://stackoverflow.com/feeds/tag?tagnames=terraform&sort=newest
+slideshare,http://www.slideshare.net/rss/tag/terraform
+note,https://note.com/hashtag/terraform/rss
+reddit,https://www.reddit.com/r/terraform/
+queryfeed,https://queryfeed.net/tw?q=terraform
+GoogleAlert,https://www.google.co.jp/alerts/feeds/11666000284305127907/15849912085833803643
