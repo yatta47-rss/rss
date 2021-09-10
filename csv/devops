@@ -1,0 +1,13 @@
+media,url
+qiita,https://qiita.com/tags/devops/feed.atom
+hatena,https://b.hatena.ne.jp/search/text?q=devops&users=1&mode=rss
+zenn,https://zenn.dev/topic/devops/feed
+medium,https://medium.com/feed/tag/devops
+GoogleNews,https://news.google.com/atom/search?ie=UTF-8&oe=UTF-8&q=devops&hl=ja&gl=JP&ceid=JP:ja
+dev.to,https://dev.to/feed/tag/devops
+stackOverflow,https://stackoverflow.com/feeds/tag?tagnames=devops&sort=newest
+slideshare,http://www.slideshare.net/rss/tag/devops
+note,https://note.com/hashtag/devops/rss
+reddit,https://www.reddit.com/r/devops/
+queryfeed,https://queryfeed.net/tw?q=devops
+GoogleAlert,https://www.google.co.jp/alerts/feeds/11666000284305127907/10971002866502415567
