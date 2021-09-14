@@ -1,0 +1,10 @@
+media,url
+qiita,https://qiita.com/tags/go/feed.atom
+hatena,https://b.hatena.ne.jp/search/text?q=golang&users=1&mode=rss
+zenn,https://zenn.dev/topics/go/feed
+medium,https://medium.com/feed/tag/go
+dev.to,https://dev.to/feed/tag/go
+stackOverflow,https://stackoverflow.com/feeds/tag?tagnames=go&sort=newest
+slideshare,http://www.slideshare.net/rss/tag/go
+note,https://note.com/hashtag/go/rss
+reddit,https://www.reddit.com/r/go/
