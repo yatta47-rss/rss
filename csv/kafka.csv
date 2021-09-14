@@ -7,6 +7,6 @@ SlideShare,http://www.slideshare.net/rss/tag/kafka
 Medium,https://medium.com/feed/tag/kafka
 reddit,https://www.reddit.com/r/kafka/
 note,https://note.com/hashtag/kafka/rss
-zenn,https://zenn.dev/topic/kafka/feed
+zenn,https://zenn.dev/topics/kafka/feed
 GoogleAlert,https://www.google.co.jp/alerts/feeds/11666000284305127907/4394943932700171255
 StackOverflow,https://stackoverflow.com/feeds/tag?tagnames=apache-kafka&sort=newest
