@@ -1,0 +1,12 @@
+media,url
+qiita,https://qiita.com/tags/zsh/feed.atom
+hatena,https://b.hatena.ne.jp/search/text?q=zsh&users=1&mode=rss
+zenn,https://zenn.dev/topics/zsh/feed
+medium,https://medium.com/feed/tag/zsh
+GoogleNews,https://news.google.com/atom/search?ie=UTF-8&oe=UTF-8&q=zsh&hl=ja&gl=JP&ceid=JP:ja
+dev.to,https://dev.to/feed/tag/zsh
+stackOverflow,https://stackoverflow.com/feeds/tag?tagnames=zsh&sort=newest
+slideshare,http://www.slideshare.net/rss/tag/zsh
+note,https://note.com/hashtag/zsh/rss
+reddit,https://www.reddit.com/r/zsh/
+GoogleAlert,https://www.google.co.jp/alerts/feeds/11666000284305127907/8135577554050882420
